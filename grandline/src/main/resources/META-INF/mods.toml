@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="grandline"
+version="1.2.0"
+displayName="Grand Line - Frutas e Haki"
+description='''Frutas do Diabo de luta (Borracha, Chamas, Gelo e Terremoto) e tres tipos de Haki com animacoes de particulas, tremor de camera e HUD.'''
+
+[[dependencies.grandline]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.2.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.grandline]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
